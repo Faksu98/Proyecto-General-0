@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align:center;">
+        <div><h1> Bienvenido al supermercado </h1></div>
+        <h3> Estos son los productos con los que contamos</h3></p>
+        <h2> Por favor seleccione la cantidad de veces que desee el prdocuto que quiera comprar </h2>
+        <div><img width="200px" src="https://static.diariovasco.com/www/multimedia/201906/03/media/cortadas/carne-roja-kS1C-R5uqUSGFlSqj84mn1I9bQuN-624x385@Diario%20Vasco.jpg" alt="imagen de carne" title="carne"></div>
+        <button id="b1" onclick="mandarPedido(this.id)">Carne</button>
+        <div><img width="200px" src="https://encolombia.com/wp-content/uploads/2021/12/Frutas.jpg" alt="imagen de frutas" title="frutas"></div>
+        <button id="b2" onclick="mandarPedido(this.id)">Frutas</button>
+        <div><img width="200px" src="https://images.philips.com/is/image/PhilipsConsumer/271E1SCA_55-IMS-es_AR?$jpglarge$&wid=960" alt="imagen de pantalla" title="pantalla"></div>
+        <button id="b3" onclick="mandarPedido(this.id)">Pantalla</button></p>
+    </div>
+    <div id="resultado" style="text-align:center;"></div>
+    <div id="carrito_compras" style="text-align:center;"></div>
+    <div style="text-align:center;">
+        <button id="O1" onclick="metodoPago(this.id)">Efectivo</button>
+        <button id="O2" onclick="metodoPago(this.id)">Credito</button>
+    </div>
+    <div id="tabla_descuento" style="text-align:center;"></div>
+    <div id="respuesta_final" style="text-align:center;"></div>
+    <script src="Proyecto0.js"></script>
+</body>
+</html>
